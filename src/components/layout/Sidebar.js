@@ -6,13 +6,13 @@ const Sidebar = () => {
   return (
     <aside>
       <h1>
-        MERN<span>Proyecto y Tareas</span>
+        MERN<span>Proyectos y tareas</span>
       </h1>
+
       <NuevoProyecto />
 
       <div className="proyectos">
-        <h2>Tus proyectos</h2>
-
+        <h2>Tus Proyectos</h2>
         <ListadoProyectos />
       </div>
     </aside>
